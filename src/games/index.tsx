@@ -105,7 +105,7 @@ export const GAMES: GameBundle[] = [
         image: "/games/logo.png",
         description: `Wheel invites players to embark on a captivating journey of chance and anticipation. Take a spin and behold as the wheel determines your fate, with each segment promising a multiplier that could lead to substantial winnings. With its engaging and straightforward gameplay, Wheel offers an immersive experience that is both thrilling and rewarding, promising endless moments of excitement and suspense. ⚠️ Under development. Wheel may not appear please refresh page. ⚠️`,
       },
-      app: dynamic(() => import("./Wheel"), { ssr: false }),
+      app: dynamic(() => import('./Wheel')),
     },
     {
       id: "limbo",
@@ -115,7 +115,7 @@ export const GAMES: GameBundle[] = [
         image: "/games/logo.png",
         description: `Limbo challenges players to walk the fine line between ambition and caution, where every decision shapes their destiny. Set a target multiplier and place your bet, daring to defy the odds. As the stakes rise, so does the adrenaline, pushing players to test their strategy and intuition in pursuit of monumental victories, ensuring an immersive and adrenaline-fueled gaming experience.`,
       },
-      app: dynamic(() => import("./Limbo")),
+      app: dynamic(() => import('./Limbo')),
     },
     {
       id: "keno",
@@ -125,6 +125,6 @@ export const GAMES: GameBundle[] = [
         image: "/games/logo.png",
         description: `Keno beckons players into a world of strategic decision-making and anticipation, where every choice holds the potential for untold riches. Select up to 10 blocks and place your bets, eagerly awaiting the draw that will determine your fate. Whether opting for fewer numbers and the allure of substantial wins or more numbers for increased odds of success, Keno promises a riveting experience filled with excitement and possibility.`,
       },
-      app: dynamic(() => import("./Keno")),  
+      app: dynamic(() => import('./keno')),  
   },
 ]
